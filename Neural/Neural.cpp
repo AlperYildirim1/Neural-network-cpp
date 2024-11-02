@@ -312,7 +312,7 @@ int main() {
         std::cout << "Epoch " << epoch + 1 << "/" << epochs << " - Loss: " << epoch_loss / num_train << std::endl;
         evaluateModel(test_images, test_labels, weights, weightsOutput, bias, biasOutput);
     }
-    std::cout << "Eğitim tamamlandı!" << std::endl;
+    std::cout << "Training Completed" << std::endl;
 
     return 0;
 }
