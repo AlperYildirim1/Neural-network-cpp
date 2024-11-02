@@ -10,5 +10,14 @@ Eigen Library: Used for efficient matrix operations.
 MNIST Compatibility: Trained on the MNIST dataset for digit recognition.
 From Scratch Implementation: No deep learning libraries, only Eigen for linear algebra.
 
+Load Dataset
+Set the File Paths in Code: Update the file paths in main.cpp to point to the extracted files. For example:
+std::string train_image_file = "C:\\Users\\username\\Desktop\\MNIST\\train-images.idx3-ubyte";
+std::string train_label_file = "C:\\Users\\username\\Desktop\\MNIST\\train-labels.idx1-ubyte";
+std::string test_image_file = "C:\\Users\\username\\Desktop\\MNIST\\t10k-images.idx3-ubyte"; 
+std::string test_label_file = "C:\\Users\\username\\Desktop\\MNIST\\t10k-labels.idx1-ubyte";
+
+
+
 Results
 After training 10 epochs, the model achieves an accuracy of approximately 90,2% on the MNIST test set.
